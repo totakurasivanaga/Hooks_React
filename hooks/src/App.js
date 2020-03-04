@@ -1,13 +1,16 @@
 import React from 'react';
 
-import Counter from './Hooks/Counter';
+// import Counter from './Hooks/Counter';
+import CounterTwo from './Hooks/CounterTwo';
+
 
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Counter />
+      {/* <Counter /> */}
+      <CounterTwo />
     </div>
   );
 }
