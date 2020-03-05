@@ -4,7 +4,8 @@ import React from 'react';
 // import CounterTwo from './Hooks/CounterTwo';
 // import CounterThree from './Hooks/CounterThree';
 // import CounterFour from './Hooks/CounterFour';
-import HookCounterOne from './Hooks/HookCounterOne';
+// import HookCounterOne from './Hooks/HookCounterOne';
+import DataFetch from './Hooks/DataFetch';
 
 
 import './App.css';
@@ -16,7 +17,8 @@ function App() {
       {/* <CounterTwo /> */}
       {/* <CounterThree /> */}
       {/* <CounterFour /> */}
-      <HookCounterOne />
+      {/* <HookCounterOne /> */}
+      <DataFetch />
     </div>
   );
 }
